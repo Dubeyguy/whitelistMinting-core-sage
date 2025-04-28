@@ -52,7 +52,7 @@ npx hardhat test
 Use a deployment script:
 
 ```bash
-npx hardhat run scripts/deploy.js --network mainnet
+npx hardhat run scripts/deploy.js --network core_testnet2
 ```
 
 ---
@@ -62,7 +62,7 @@ npx hardhat run scripts/deploy.js --network mainnet
 You can verify contracts on Etherscan using Hardhat's verification plugin:
 
 ```bash
-npx hardhat verify --network mainnet <deployed_contract_address> 
+npx hardhat verify --network core_testnet2 0x57e288B0a9173008dD1Ee476f256Eab3c87a30ce
 ```
 
 ## 🔍 Contract Verification
